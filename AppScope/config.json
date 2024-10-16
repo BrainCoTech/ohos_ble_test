@@ -1,0 +1,9 @@
+{
+  "app": {
+    "name": "Easleep",
+    "version": "1.0.0",
+    "permissions": ["ohos.permission.INTERNET", "ohos.permission.ACCESS_BLUETOOTH"],
+    "icon": "/resources/icon.png",
+    "languages": ["en", "zh"]
+  }
+}

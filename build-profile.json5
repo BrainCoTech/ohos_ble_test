@@ -1,0 +1,50 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 11,
+        "compatibleSdkVersion": 11,
+        "targetSdkVersion": 11,
+        "runtimeOS": "OpenHarmony"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "/Users/yongle/.ohos/config/openharmony/default_easleepohos_ZCKVcXmsiLErAkNUj2EejPp1Z7HwVqQ-LCjgYnJses8=.cer",
+          "storePassword": "0000001B1897C67627BE71059A0B357287B5C5543EB0F3F891122A29E7F5366CC45CF7C3D27A3143585396",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B9179401340A3CDEE835055482FE951D32FDFAB0B64033B0FA1B766505D23E58D67F6A5E2D7B46A",
+          "profile": "/Users/yongle/.ohos/config/openharmony/default_easleepohos_ZCKVcXmsiLErAkNUj2EejPp1Z7HwVqQ-LCjgYnJses8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yongle/.ohos/config/openharmony/default_easleepohos_ZCKVcXmsiLErAkNUj2EejPp1Z7HwVqQ-LCjgYnJses8=.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ],
+}
